@@ -8,7 +8,7 @@
 Display the inbox size capacity in the private messages page. </info>
 	<homepage>http://colinschoen.me</homepage>
 	<file name="$sourcedir/PersonalMessage.php">
-		<operation error="required">
+		<operation>
 			<search position="replace"><![CDATA[
 		// !!! Why do we do this?  It seems like if they have any limit we should use it.
 		$request = $smcFunc['db_query']('', '
@@ -33,7 +33,7 @@ Display the inbox size capacity in the private messages page. </info>
 				'users_groups' => $user_info['groups'],
 			)
 		);
-		$max_messages = $smcFunc['db_fetch_row']($request);
+		list ($maxMessage) = $smcFunc['db_fetch_row']($request);
 		$smcFunc['db_free_result']($request);
 
 		$context['message_limit'] = $maxMessage;
