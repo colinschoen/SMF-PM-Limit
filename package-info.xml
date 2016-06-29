@@ -1,0 +1,20 @@
+<?xml version="1.0"?>
+<!DOCTYPE package-info SYSTEM "http://www.simplemachines.org/xml/package-info">
+<package-info xmlns="http://www.simplemachines.org/xml/package-info" xmlns:smf="http://www.simplemachines.org/">
+	<name>colin:PM-Limit</name>
+	<id>Colin:Colin:PM-Limit</id>
+	<type>modification</type>
+	<version>1.0</version>
+	<install>
+		<readme type="inline">If a user is a member of a group that restricts their PM inbox size use that limit regardless of other membergroups unless the user is an admin. 
+
+Display the inbox size capacity in the private messages page. </readme>
+		<modification type="file">PM-Limit.xml</modification>
+	</install>
+	<uninstall>
+		<readme type="inline">If a user is a member of a group that restricts their PM inbox size use that limit regardless of other membergroups unless the user is an admin. 
+
+Display the inbox size capacity in the private messages page. </readme>
+		<modification type="file" reverse="true">PM-Limit.xml</modification>
+	</uninstall>
+</package-info>

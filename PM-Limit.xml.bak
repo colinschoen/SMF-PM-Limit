@@ -1,0 +1,10 @@
+<?xml version="1.0"?>
+<!DOCTYPE modification SYSTEM "http://www.simplemachines.org/xml/modification">
+<modification xmlns="http://www.simplemachines.org/xml/modification" xmlns:smf="http://www.simplemachines.org/">
+	<id>Colin:Colin:PM-Limit</id>
+	<version>1.0</version>
+	<info>If a user is a member of a group that restricts their PM inbox size use that limit regardless of other membergroups unless the user is an admin. 
+
+Display the inbox size capacity in the private messages page. </info>
+	<homepage>http://colinschoen.me</homepage>
+</modification>
